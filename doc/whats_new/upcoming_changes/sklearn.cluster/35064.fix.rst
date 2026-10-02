@@ -1,0 +1,4 @@
+- :meth:`cluster.FeatureAgglomeration.inverse_transform` now supports array-like
+  and DataFrame inputs (including its own :meth:`~cluster.FeatureAgglomeration.set_output`
+  output) and 1D arrays without raising indexing errors.
+  By :user:`Vansh Sharma <Vansh-Sharmaa>`.
